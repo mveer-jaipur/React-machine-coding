@@ -1,9 +1,11 @@
-import { TicTok } from "./components/tic-toe"
+import { ProgressBar } from "./components/progress-bar";
 
 function App() {
-
   return (
-      <TicTok />
+    <div>
+     {/* <TicTok /> */}
+      <ProgressBar />
+    </div>
   )
 }
 
