@@ -1,10 +1,14 @@
-import { ProgressBar } from "./components/progress-bar";
+import { FileExplorer } from "./components/file-explorer";
 
 function App() {
   return (
     <div>
      {/* <TicTok /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
+      {/* <NoteDragDrop /> */}
+      {/* <ClickCounter /> */}
+      {/* <Stopwatch /> */}
+      <FileExplorer />
     </div>
   )
 }
